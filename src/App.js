@@ -1,4 +1,6 @@
-const {useState ,useEffect,createContext, useContext,useRef, useCallback,useMemo } = React;
+import './App.css';
+import React from 'react';
+import { useState,useEffect } from 'react';
 
 const App = () => {
   const [count,setCount] = useState(10);
@@ -17,6 +19,7 @@ const App = () => {
   );
   }
 
+export default App;
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+
+
